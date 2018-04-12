@@ -1,4 +1,5 @@
 import sys
+import xml.etree.ElementTree as ET
 
 def main():
 
@@ -11,9 +12,14 @@ def main():
 
 
 
-
+tree = ET.parse('studentObjects.xml')
+root = tree.getroot()
 
 
 
 if __name__ == '__main__':
   main()
+
+
+
+print(root)
