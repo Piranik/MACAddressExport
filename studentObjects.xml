@@ -1,6 +1,13 @@
 <?xml version = "1.0"?>
-<contact-info>
-   <name>Tanmay Patil</name>
-   <company>TutorialsPoint</company>
-   <phone>(011) 123-4567</phone>
-</contact-info>
+<devices>
+   <test_1>
+      <address>0C:51:01:B7:28:A8</address>
+      <serial>DMPRXH7XG5VW</serial>
+      <date_last_checked>Fri Apr 13 12:59:07 EDT 2018</date_last_checked>
+   </test_1>
+   <test_2>
+      <address>0C:51:01:B7:28:A7</address>
+      <serial>DMPRXH7XG5VX</serial>
+      <date_last_checked>Fri Apr 14 12:59:07 EDT 2018</date_last_checked>
+   </test_2>
+</devices>
