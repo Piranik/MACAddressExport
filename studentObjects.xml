@@ -1,21 +1,12 @@
-<?xml version = "1.0"?>
 <devices>
-   <test_1>
+   <device>
       <address>0C:51:01:B7:28:A8</address>
       <serial>DMPRXH7XG5VW</serial>
-      <date_last_checked>Fri Apr 13 12:59:07 EDT 2018</date_last_checked>
-      <isValid>true</isValid>
-   </test_1>
-   <test_2>
+      <date_last_checked>2018-04-13 21:34:51.208651</date_last_checked>
+   </device>
+   <device>
       <address>0C:51:01:B7:28:A7</address>
       <serial>DMPRXH7XG5VX</serial>
-      <date_last_checked>Fri Apr 14 12:59:07 EDT 2018</date_last_checked>
-      <isValid>true</isValid>
-   </test_2>
-   <test_3>
-      <address>0C:51:34:B7:28:A7</address>
-      <serial>DMPRXH7XH5VX</serial>
-      <date_last_checked>Fri Apr 14 12:59:07 EDT 2018</date_last_checked>
-      <isValid>false</isValid>
-   </test_3>
+      <date_last_checked>2018-04-13 21:32:21.544818</date_last_checked>
+   </device>
 </devices>
