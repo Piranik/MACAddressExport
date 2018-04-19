@@ -31,23 +31,9 @@ def main():
 	print('Foreign Devices Identified: ' + str(len(mac_addresses) - known_devices_updated))
 	tree.write('studentObjects.xml')
 
-def generateReport(): #Prints report (NEED TO CONVERT TO RETURN MULTILINE STR) 
-	i = 0
-	tree = ET.parse('studentObjects.xml')
-	root = tree.getroot()
-	for device in root:
-		if device[1].text != 'UNKNOWN':
-			i += 1
-			print
-			print("-----------------[Device Number " + str(i) + "]----------------")
-			print("MAC Address---------: " + device[0].text)
-			print("Serial Number-------: " + device[1].text)
-			print("Date last Checked in: " + device[2].text)
-			print("--------------------------------------------------")
-			print
-
+print('===================REPORT======================')
+print('Added devices:')
 if __name__ == '__main__':
   main()
-
-generateReport()
+print('=================END_REPORT====================')
 print("compareMACSerial.py complete")
